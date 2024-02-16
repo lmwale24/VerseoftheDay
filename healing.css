@@ -1,0 +1,36 @@
+/* style for love */
+.fa-heart {
+    font-size: 3rem;
+
+}
+
+/* H1  STYLE*/
+#Healing {
+    color: var(--healing-color);
+
+}
+
+.btn-container1 #New-Healing-Verse {
+    border-radius: var(--border-radius);
+    width: 250px;
+    height: 39px;
+    font-size: 1.3rem;
+
+
+}
+
+.btn-container1 #New-Healing-Verse:hover {
+    transform: scalex(0.889879);
+
+}
+
+.btn-container1 #Share-Healing-Verse:hover {
+    transform: scalex(0.889879);
+}
+
+.btn-container1 #Share-Healing-Verse {
+border-radius: var(--border-radius);
+    width: 250px;
+    height: 39px;
+    font-size: 1.3rem;
+}
