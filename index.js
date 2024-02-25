@@ -1,13 +1,13 @@
 function randomVerse() {
     const bibleVerses = {
-        john_316: "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life",
-        romans_323: "For everyone has sinned; we all fall short of God's glorious standard.",
-        phillippians_413: "I can do all things through him who strengthens me.",
-        psalm_231: "The Lord is my shepherd; I shall not want.",
-        proverbs_35: "Trust in the Lord with all your heart, and do not lean on your own understanding.",
-        jermiah_2911: "For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope.",
-        romans_828: "And we know that for those who love God all things work together for good, for those who are called according to his purpose.",
-        phillippians_46:"Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God."
+        "John 3:16": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life",
+        "Romans 3:23": "For everyone has sinned; we all fall short of God's glorious standard.",
+        "Phillippians 4:13": "I can do all things through him who strengthens me.",
+        "Psalm 23:1": "The Lord is my shepherd; I shall not want.",
+        "Proverbs 3:5": "Trust in the Lord with all your heart, and do not lean on your own understanding.",
+        "Jermiah 29:11": "For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope.",
+        "Romans 8:28": "And we know that for those who love God all things work together for good, for those who are called according to his purpose.",
+        "Phillippians 4:6":"Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God."
     };
 
     // Get an array of verse keys
@@ -289,11 +289,6 @@ newFearVerseBtn.addEventListener('click', function() {
     });
 
 
-// DROPDOWN MENU 
-// const header = document.querySelector("header");
-// window.addEventListener("scroll", function(){
-//     header.classList.toggle("sticky", window.scrollY > 100);
-// });
 
 
 let menu = document.querySelector("#menu-icon");
@@ -305,3 +300,10 @@ menu.onclick = () => {
      // Toggle a class on the <ul> element to control the visibility of <a> tags
     navlist.classList.toggle('menu-open');
 };
+
+
+
+const header = document.querySelector("header");
+window.addEventListener("scroll", function(){
+    header.classList.toggle("sticky", window.scrollY > 100);
+});

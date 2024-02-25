@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
@@ -17,15 +18,16 @@
     <link rel="stylesheet" href="anger.css">
     <link rel="stylesheet" href="peace.css">
     <link rel="stylesheet" href="fear.css">
+    <link rel="stylesheet" href="images/images.css">
     <title>Verse of the Day</title>
 </head>
 <body>
  <!--Home design-->
-    <header>
+    <header class="sticky">
         <a href="#" class="logo"> Bible <span>V</span>erses</a>
         <ul class="navlist">
             <li><a href="#Home" class="active">Home</a></li>
-            <li><a href="#Love" class="active">Love</a></li>
+            <li><a href="#Love">Love</a></li>
             <li><a href="#Healing">Healing</a></li>
             <li><a href="#Anger">Anger</a></li>
             <li><a href="#Peace">Peace</a></li>
@@ -34,9 +36,12 @@
         <div class="bx bx-menu" id="menu-icon">
         </div>
     </header>
+
+    <!-- Home section -->
+    <section class="Home">  
     <div class="parent-container">
     <div class="box-Container">
-        <h1>Verse of the Day</h1> 
+        <h1 id="Home">Verse of the Day <i class="fa-solid fa-book-bible"></i></h1> 
         <div class="verse-container">
             <h3 id="verse"></h3> 
                 <div class="author-container">
@@ -50,7 +55,11 @@
             </div>
         </div>
 </div>
+</section>
 
+
+
+<section class="Love"> 
 <!-- love section -->
 <div class="parent-container">
     <div class="box-Container">
@@ -72,8 +81,10 @@
     </div>
 </div>
 </div>
+</section>
 
 <!-- Healing section -->
+<section class="Healing"> 
 <div class="parent-container">
     <div class="box-Container">
         <h1 id="Healing">Healing <i class="fa-solid fa-notes-medical"></i></h1>
@@ -90,10 +101,11 @@
     </div>
 </div>
 </div>
-
+</section>
 
   
 <!-- anger Section -->
+<section class="Anger"> 
 <div class="parent-container">
     <div class="box-Container">
         <h1 id="Anger">Anger <i class="fa-solid fa-face-angry"></i></h1>
@@ -110,7 +122,9 @@
     </div>
 </div>
 </div>
+</section>
 <!-- Peace section -->
+<section class="Peace"> 
 <div class="parent-container">
     <div class="box-Container">
         <h1 id="Peace"> Peace <i class="fa-solid fa-dove"></i></h1>
@@ -127,8 +141,12 @@
     </div>
 </div>
 </div>
+</section>
+
+
 
 <!-- Fear section -->
+<section class="Fear"> 
 <div class="parent-container">
     <div class="box-Container">
         <h1 id="Fear">Fear <i class="fa-solid fa-person-running"></i></h1>
@@ -145,7 +163,21 @@
     </div>
 </div>
 </div>
-    
+</section>
+
+<!-- end section -->
+<!-- Contact section design-->
+<section class="end">
+    <div class="last-text">
+        <p>Copyright © 2024 by Lameck Mwale All Rights Reserved.</p>
+    </div>
+    <div class="top">
+        <a href="#Home"><i class='bx bxs-up-arrow'></i></a>
+    </div>
+
+</section>
+
+
     <script src="index.js"></script>
 </body>
 </html>

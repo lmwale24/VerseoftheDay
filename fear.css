@@ -34,3 +34,77 @@
     height: 39px;
     font-size: 1.3rem;
 }
+
+/* media queries */
+@media (max-width:840px) {
+    #menu-icon {
+        display: block;
+
+    }
+}
+
+#Peace {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+#Peace-verse {
+    font-size: 1.2rem;
+}
+
+.btn-container1 #New-Peace-Verse {
+    width: 200px;
+    font-size: 1rem;
+}
+
+.btn-container1 #Share-Peace-Verse {
+    width: 200px;
+    font-size: 1rem;
+}
+
+.fa-forward {
+    font-size: 1rem;
+}
+
+.fa-x-twitter {
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    #Fear {
+        font-size: 2rem;
+        padding-bottom: 50px;
+    }
+
+    #Fear-verse {
+
+        padding-bottom: 20px;
+        font-size: 1rem;
+    }
+
+    #Fear-author {
+        font-size: 1rem;
+
+    }
+
+    .btn-container1 #New-Fear-Verse {
+        width: 150px;
+        font-size: 0.8rem;
+    }
+
+    .btn-container1 #Share-Fear-Verse {
+        width: 150px;
+        font-size: 0.8rem;
+    }
+
+    .fa-forward {
+        font-size: 0.8rem;
+    }
+
+    .fa-x-twitter {
+        font-size: 0.8rem;
+    }
+
+}

@@ -34,3 +34,86 @@
         font-size: 1.3rem;   
 }
 
+
+
+/* Media Query */
+/* media queries */
+@media (max-width:840px) {
+    #menu-icon {
+        display: block;
+
+    }
+
+}
+
+#Love .fa-heart{
+    font-size: 2rem;
+}
+
+
+h1 #Love {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+ #Love-verse{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.btn-container1 #New-Love-Verse {
+    width: 200px;
+    font-size: 1rem;
+}
+
+.btn-container1 #Share-Love-Verse {
+    width: 200px;
+    font-size: 1rem;
+}
+
+.fa-forward {
+    font-size: 1rem;
+}
+
+.fa-x-twitter {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+
+    #Love {
+        font-size: 2rem;
+        padding-bottom: 50px;
+    }
+
+    #Love-verse {
+
+        padding-bottom: 20px;
+        font-size: 1rem;
+    }
+
+    #Love-author {
+        font-size: 1rem;
+
+    }
+
+    .btn-container1 #New-Love-Verse {
+        width: 150px;
+        font-size: 0.8rem;
+    }
+
+    .btn-container1 #Share-Love-Verse {
+        width: 150px;
+        font-size: 0.8rem;
+    }
+
+    .fa-forward {
+        font-size: 0.8rem;
+    }
+
+    .fa-x-twitter {
+        font-size: 0.8rem;
+    }
+
+}
