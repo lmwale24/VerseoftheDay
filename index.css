@@ -88,10 +88,11 @@ span {
 }
 body{
     font-family: Arial, sans-serif;
-    background-image: url(images/sunset-desktop-wallpaper-1.jpg);
+    background-image: url(images/pngtree-jesus-on-the-cross-picture-image_2776249.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 .parent-container {
@@ -367,11 +368,6 @@ header.sticky {
 
 
 @media screen and (max-width: 480px) {
-
-    
-
-    
-
     
     h1 {
         font-size: 2rem;
