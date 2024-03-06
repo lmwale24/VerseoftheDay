@@ -88,11 +88,23 @@ span {
 }
 body{
     font-family: Arial, sans-serif;
-    background-image: url(images/pngtree-jesus-on-the-cross-picture-image_2776249.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    /* background-image: url(images/sunset-desktop-wallpaper-1.jpg); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
 
+}
+
+
+.Home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/sunset-desktop-wallpaper-1.jpg);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .parent-container {
